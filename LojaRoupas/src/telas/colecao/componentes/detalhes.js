@@ -20,7 +20,7 @@ export default function detalhes({ nome, fornecedor, descricao, preco, logo, bot
 const estilos = StyleSheet.create({
     botao: {
         marginTop: 16,
-        backgroundColor: "#2A9F85",
+        backgroundColor: "#000000",
         paddingVertical: 16, // espaço em cima e embaixo
         borderRadius: 6
     },
@@ -29,22 +29,25 @@ const estilos = StyleSheet.create({
         color: "#fff",
         fontSize: 16,
         lineHeight: 36,
+        fontFamily: 'righteous',
         fontWeight: "bold"
     },
     fornecedor: {
         fontSize: 16,
         lineHeight: 36,
+        fontFamily: 'righteous',
         marginLeft: 12,
     },
     nome: {
         color: '#464646',
         fontSize: 26,
         lineHeight: 42,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontFamily: 'righteous',
     },
     imagemFornecedor: {
-        width: 31,
-        height: 31
+        width: 50,
+        height: 50
     },
     cabecalhoFornecedor: {
         flexDirection: 'row',// tudo em uma linha

@@ -1,11 +1,13 @@
 import React from 'react';
 import Texto from '../../../componentes/Texto';
-import topo from '../../../../assets/topo.png'
+import topo from '../../../../assets/topo.jpeg'
 import { Image, StyleSheet, Dimensions } from 'react-native';
 
+
+
 const width = Dimensions.get('screen').width;
-const altura = 168;
-const largura = 300;
+const altura = 767;
+const largura = 770;
 const valor = altura / largura * width;
 
 export default function Topo({ titulo }) {

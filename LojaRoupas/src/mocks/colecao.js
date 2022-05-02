@@ -1,12 +1,20 @@
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpeg';
 import blazer from '../../assets/blazer.jpg';
 import vestidovermelho from '../../assets/vestidovermelho.jpg';
 import sapatosocialmasculino from '../../assets/sapatosocialmasculino.jpg';
-
+import vestidoinfantil from '../../assets/vestidoinfantil.jpg';
+import infantilmasculino from '../../assets/infantilmasculino.jpg';
+import saltofeminino from '../../assets/saltofeminino.jpg';
+import colares from '../../assets/colares.jpg';
+import bolsa from '../../assets/bolsa.jpg';
+import calcafeminina from '../../assets/calcafeminina.jpg';
+import calcamasculina from '../../assets/calcamasculina.jpg';
+import pijama from '../../assets/pijama.jpg';
+import conjunto from '../../assets/conjunto.jpg';
 
 const colecao = {
     topo: {
-        titulo: 'LOJA DE ROUPAS J.G MULTIMARCAS'
+        //titulo: 'JULIA & GUSTAVO LTDA'
     },
     detalhes: {
         nome: 'Coleção de Roupas',
@@ -16,56 +24,56 @@ const colecao = {
         logo: logo,
         botao: "Comprar"
     },
-    roupa: {
+    roupas: {
         titulo: 'Coleção de Roupas',
         lista: [
             {
-                nome: 'Sapato Social Masculino',
+                nome: 'Sapatos Masculinos',
                 imagem: sapatosocialmasculino
             },
             {
-                nome: 'Blazer Masculino',
+                nome: 'Blazers Masculinos',
                 imagem: blazer
             },
             {
-                nome: 'Vestido Vermelho',
+                nome: 'Vestidos',
                 imagem: vestidovermelho
             },
             {
-                nome: 'Sapato Social Masculino',
-                imagem: sapatosocialmasculino
+                nome: 'Infantil Feminino',
+                imagem: vestidoinfantil
             },
             {
-                nome: 'Blazer Masculino',
-                imagem: blazer
+                nome: 'Infantil Masculino',
+                imagem: infantilmasculino
             },
             {
-                nome: 'Vestido Vermelho',
-                imagem: vestidovermelho
+                nome: 'Sapatos Femininos',
+                imagem: saltofeminino
             },
             {
-                nome: 'Sapato Social Masculino',
-                imagem: sapatosocialmasculino
+                nome: 'Colares',
+                imagem: colares
             },
             {
-                nome: 'Blazer Masculino',
-                imagem: blazer
+                nome: 'Bolsas Femininas',
+                imagem: bolsa
             },
             {
-                nome: 'Vestido Vermelho',
-                imagem: vestidovermelho
+                nome: 'Calças Femininas',
+                imagem: calcafeminina
             },
             {
-                nome: 'Sapato Social Masculino',
-                imagem: sapatosocialmasculino
+                nome: 'Calças Masculinas',
+                imagem: calcamasculina
             },
             {
-                nome: 'Blazer Masculino',
-                imagem: blazer
+                nome: 'Pijamas',
+                imagem: pijama
             },
             {
-                nome: 'Vestido Vermelho',
-                imagem: vestidovermelho
+                nome: 'Conjuntos',
+                imagem: conjunto
             },                                    
         ] 
     }
